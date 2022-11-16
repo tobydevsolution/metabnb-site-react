@@ -1,0 +1,12 @@
+.utility-section {
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  margin-top: -70vh;
+}
+@media (max-width: 800px) {
+  .text {
+    display: none;
+  }
+}

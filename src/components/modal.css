@@ -1,0 +1,68 @@
+.modalBackground {
+  width: 100vw;
+  height: 180vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3000;
+}
+
+.modalContainer {
+  width: 500px;
+  height: 400px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin-top: 500px;
+}
+
+.modalContainer .title h3 {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalContainer .body p {
+  margin-top: 50px;
+}
+.wallet-pop-up {
+  margin-top: 50px;
+}
+.wallet-box {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 50px;
+  border: 1px solid gray;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+  border: none;
+}
+.wallet-box span {
+  font-weight: bold;
+  color: #333;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+.wallet-box i {
+  margin-left: auto;
+}
